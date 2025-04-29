@@ -14,28 +14,16 @@
 </head>
 
 <body>
-  <canvas id="c"></canvas>
+  <canvas id=c></canvas>
   <canvas id="confetti"></canvas>
   <div class="container" id="count">
-    <h1 class="animate__animated animate__fadeIn" id="head">Countdown to your birthday:</h1>
-    <div class="countdown-container">
-      <div class="countdown-item">
-        <span id="day"></span>
-        <label>days</label>
-      </div>
-      <div class="countdown-item">
-        <span id="hour"></span>
-        <label>hours</label>
-      </div>
-      <div class="countdown-item">
-        <span id="minute"></span>
-        <label>minutes</label>
-      </div>
-      <div class="countdown-item">
-        <span id="second"></span>
-        <label>seconds</label>
-      </div>
-    </div>
+    <h1 id="head">Countdown to your birthday:</h1>
+    <ul>
+      <li><span id="day"></span>days</li>
+      <li><span id="hour"></span>hours</li>
+      <li><span id="minute"></span>minutes</li>
+      <li><span id="second"></span>seconds</li>
+    </ul>
   </div>
   <div id="merrywrap" class="merrywrap">
     <canvas id="snowfall"></canvas>
@@ -50,5 +38,7 @@
 <script src="scripts/confetti.min.js" charset="utf-8"></script>
 <script src="scripts/index.js" charset="utf-8"></script>
 <script src="script.js"></script>
+
+
 
 </html>

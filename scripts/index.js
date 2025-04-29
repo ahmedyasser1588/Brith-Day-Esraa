@@ -4,10 +4,10 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'may 5,2025',
-  birthdate: 'january 1,2025',
+  birthdate: 'april 10,2025',
+  // birthdate: 'january 1,2025',
   
-  name: 'Ya Esraa', 
+    name: 'Ya Esraa', 
 };
 
 function hideEverything() {
